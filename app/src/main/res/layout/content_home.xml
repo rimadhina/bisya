@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".home"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white"
+    tools:showIn="@layout/app_bar_home">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5pt"
+        android:src="@drawable/home_img"/>
+
+        <TextView
+            android:onClick="mycourses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MY COURSES"
+            android:gravity="center"
+            android:background="@drawable/btn_green"
+            style="@style/btn_green"/>
+        <TextView
+            android:onClick="myexercises"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MY EXERCISES"
+            android:gravity="center"
+            android:background="@drawable/btn_green"
+            style="@style/btn_green"/>
+        <TextView
+            android:onClick="about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABOUT"
+            android:gravity="center"
+            android:background="@drawable/btn_green"
+            style="@style/btn_green"/>
+        <TextView
+            android:onClick="ourdevelopers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OUR DEVELOPERS"
+            android:gravity="center"
+            android:background="@drawable/btn_green"
+            style="@style/btn_green"/>
+</LinearLayout>
